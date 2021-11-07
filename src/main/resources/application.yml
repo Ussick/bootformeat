@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/testIteaWeb
+    username: root
+    password: 5B4#n5u%Pz
+    driverClassName: com.mysql.jdbc.Driver
+server:
+  port: 8081
